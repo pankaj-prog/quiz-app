@@ -28,7 +28,7 @@ body {
 .header {
   max-width: 1000px;
   margin: auto;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .header-search-wrapper {

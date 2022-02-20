@@ -1,0 +1,54 @@
+@import url("/common.css");
+
+.header button {
+  background-color: var(--ERROR);
+  color: var(--WHITE);
+  border: 2px solid var(--ERROR);
+  box-shadow: none;
+  transition: box-shadow 0.5s ease;
+}
+
+.header button:hover {
+  box-shadow: 2px 2px 6px -2px var(--BLACK);
+}
+.main-content-heading {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.message,
+.timer {
+  border-bottom: 2px solid var(--BLACK);
+}
+
+/* question wrapper */
+.question-wrapper {
+  background-color: var(--LIGHT-GRAY);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.answer-option-input {
+  visibility: hidden;
+}
+
+.answer-label {
+  display: inline-block;
+  padding: 4px;
+  border-radius: 6px;
+  width: 100%;
+  border-left: 4px solid var(--GRAY);
+}
+
+.answer-option-input:checked + label {
+  background-color: var(--GRAY);
+  color: var(--WHITE);
+}
+
+.question {
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+}
