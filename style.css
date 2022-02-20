@@ -2,13 +2,11 @@
 
 /* main heading */
 .main-content-heading {
-  text-align: center;
   padding: 0px 0px 16px 0px;
 }
 
 /* categories wrapper  */
 .categories-wrapper {
-  /* border: 1px solid var(--LIGHT-GRAY); */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
