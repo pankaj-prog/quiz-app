@@ -1,0 +1,46 @@
+@import url("/common.css");
+
+/* main heading */
+.main-content-heading {
+  text-align: center;
+  padding: 0px 0px 16px 0px;
+}
+
+/* categories wrapper  */
+.quizzes-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+/* quiz card */
+
+.card {
+  transition: box-shadow 0.5s ease;
+  border-radius: 12px;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 2px 4px 10px -4px var(--BLACK);
+}
+
+.card-img-wrapper {
+  aspect-ratio: 16/12;
+  overflow: hidden;
+}
+
+.card-img-wrapper img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}

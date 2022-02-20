@@ -1,0 +1,66 @@
+@import url("/common.css");
+
+/* main heading */
+.main-content-heading {
+  padding: 0px 0px 16px 0px;
+}
+
+/* categories wrapper  */
+.categories-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+/* category card  */
+
+.card {
+  transition: box-shadow 0.5s ease;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 2px 4px 10px -4px var(--BLACK);
+}
+
+.card:hover .card-img-overlay {
+  text-shadow: 4px 4px 4px var(--BLACK);
+}
+
+.card-img-wrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16/12;
+}
+
+.card-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card-img-overlay {
+  background-color: var(--BLACK-OVERLAY);
+  color: var(--WHITE);
+  text-shadow: 2px 2px var(--BLACK);
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  transition: text-shadow 0.5s ease;
+}
+
+.card button {
+  margin: 8px 0;
+}
