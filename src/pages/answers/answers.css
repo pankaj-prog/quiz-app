@@ -1,0 +1,38 @@
+@import url("/common.css");
+
+.main-content-heading {
+  margin-bottom: 1rem;
+}
+
+.question-wrapper {
+  background-color: var(--LIGHT-GRAY);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.question {
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+}
+
+.options {
+  padding: 4px;
+  border-left: 4px solid var(--GRAY);
+  border-radius: 8px;
+}
+
+.right-ans {
+  background-color: var(--SUCCESS);
+  color: var(--WHITE);
+  border: none;
+}
+
+.wrong-ans {
+  background-color: var(--ERROR);
+  color: var(--WHITE);
+  border: none;
+}

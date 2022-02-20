@@ -1,0 +1,27 @@
+@import url("/common.css");
+
+.site-main {
+  gap: 8px;
+}
+
+.right-ans-wrapper,
+.wrong-ans-wrapper {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+.right-ans-wrapper {
+  border: 2px solid var(--SUCCESS);
+  background-color: var(--SUCCESS-BG);
+}
+
+.wrong-ans-wrapper {
+  border: 2px solid var(--ERROR);
+  background-color: var(--ERROR-BG);
+}
