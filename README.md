@@ -12,6 +12,8 @@ Play quizzes in various categories available.
 - [Quiz](https://quiz-app-pankaj.netlify.app/src/pages/questions/questions.html)
 - [Answers](https://quiz-app-pankaj.netlify.app/src/pages/answers/answers.html)
 - [Result](https://quiz-app-pankaj.netlify.app/src/pages/result/result.html)
+- [Login](https://quiz-app-pankaj.netlify.app/src/pages/authentication/login.html)
+- [Signup](https://quiz-app-pankaj.netlify.app/src/pages/authentication/signup.html)
 
 ## Features
 
