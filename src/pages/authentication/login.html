@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/pages/authentication/auth.css" />
+    <title>Quiz App - log in</title>
+  </head>
+  <body>
+    <section class="site-header">
+      <header class="header">
+        <a href="/index.html" class="header-brand h2">Quiz App</a>
+        <div class="header-search-wrapper">
+          <label for="search"><i class="fas fa-search"></i></label>
+          <input type="text" id="search" />
+        </div>
+        <button class="btn btn-solid-primary btn-rc">
+          <a href="/src/pages/authentication/signup.html">Sign up</a>
+        </button>
+      </header>
+    </section>
+    <section class="site-main">
+      <section class="auth-box">
+        <h1 class="auth-box-heading h4">Log in to your account</h1>
+        <form action="" class="auth-form">
+          <button type="button" class="social-btn form-btn">
+            <i class="fab fa-facebook"></i>
+            <a href="#">Continue with facebook</a>
+          </button>
+          <button type="button" class="social-btn form-btn">
+            <i class="fab fa-google"></i>
+            <a href="#">Continue with Google</a>
+          </button>
+          <p class="form-guide text-muted">Or login with email address</p>
+          <div class="input-container">
+            <label for="input-email"><i class="fas fa-envelope"></i></label>
+            <input
+              type="email"
+              name="email"
+              id="input-email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="input-container">
+            <label for="input-password"><i class="fas fa-lock"></i></label>
+            <input
+              type="password"
+              name="password"
+              id="input-password"
+              placeholder="Password"
+            />
+          </div>
+          <button type="button" class="btn auth-btn form-btn">Log in</button>
+          <button
+            type="button"
+            class="btn btn-link-primary btn-forgot-password"
+          >
+            Forgot password
+          </button>
+        </form>
+        <footer class="auth-box-footer">
+          Don't have an account ?
+          <button class="btn btn-link-primary">
+            <a href="/src/pages/authentication/signup.html"> Sign-up</a>
+          </button>
+        </footer>
+      </section>
+    </section>
+    <footer class="site-footer">
+      Made with <i class="fas fa-heart"></i> by
+      <a href="https://www.github.com/pankaj-prog">Pankaj Wadhwani</a>
+    </footer>
+  </body>
+</html>
