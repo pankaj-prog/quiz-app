@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/pages/authentication/auth.css" />
+    <title>Quiz App - sign up</title>
+  </head>
+  <body>
+    <section class="site-header">
+      <header class="header">
+        <a href="/index.html" class="header-brand h2">Quiz App</a>
+        <div class="header-search-wrapper">
+          <label for="search"><i class="fas fa-search"></i></label>
+          <input type="text" id="search" />
+        </div>
+        <button class="btn btn-solid-primary btn-rc">
+          <a href="/src/pages/authentication/login.html">Log in</a>
+        </button>
+      </header>
+    </section>
+    <section class="site-main">
+      <section class="auth-box">
+        <h1 class="auth-box-heading h4">Sign up and start learning</h1>
+        <form action="" class="auth-form">
+          <div class="input-container">
+            <label for="input-name"><i class="fas fa-user"></i></label>
+            <input
+              type="text"
+              name="name"
+              id="input-name"
+              placeholder="Full Name"
+            />
+          </div>
+          <div class="input-container">
+            <label for="input-email"><i class="fas fa-envelope"></i></label>
+            <input
+              type="email"
+              name="email"
+              id="input-email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="input-container">
+            <label for="input-password"><i class="fas fa-lock"></i></label>
+            <input
+              type="password"
+              name="password"
+              id="input-password"
+              placeholder="Password"
+            />
+          </div>
+          <div class="checkbox-input-container">
+            <input type="checkbox" class="checkbox" name="" id="checkbox" />
+            <label for="checkbox"
+              >I’m in for emails with exciting discounts and personalized
+              recommendations</label
+            >
+          </div>
+          <button type="button" class="auth-btn form-btn">Sign up</button>
+          <p class="text-muted text-sm form-alert">
+            By signing up, you agree to our Terms of Use and Privacy Policy.
+          </p>
+        </form>
+        <footer class="auth-box-footer">
+          Already have an account ?
+          <button class="btn btn-link-primary">
+            <a href="/src/pages/authentication/login.html"> Log in</a>
+          </button>
+        </footer>
+      </section>
+    </section>
+    <footer class="site-footer">
+      Made with <i class="fas fa-heart"></i> by
+      <a href="https://www.github.com/pankaj-prog">Pankaj Wadhwani</a>
+    </footer>
+  </body>
+</html>
