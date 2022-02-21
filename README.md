@@ -23,3 +23,5 @@ Play quizzes in various categories available.
 - Timer
 - Score
 - Answers
+- Login
+- Signup
